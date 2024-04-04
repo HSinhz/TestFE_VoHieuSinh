@@ -1,0 +1,78 @@
+/*  */
+.fw-600 {
+    font-weight: 600;
+}
+
+.body .our-product {
+    margin-top: 96px;
+    margin-bottom: 56px;
+}
+
+.our-product .col-four{
+    width: 23%;
+    margin: 0 12px;
+}
+
+.our-product .body-our-product{
+    margin-top: 56px;
+}
+
+.our-product .img-product {
+    width: 100%;
+    display: block;
+}
+
+.our-product .product-body{
+    background: rgba(244, 245, 247, 1);
+    padding: 16px;
+}
+
+.btn-show-more {
+    background: #ffff;
+    color:rgba(232, 159, 113, 1);
+    padding: 0.8em 4em;
+    border: 1px solid rgba(232, 159, 113, 1) !important;
+}
+
+.our-product .col {
+    position: relative;
+    
+}
+.our-product .add-to-cart-button {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    bottom: 50%;
+    background: #ffff;
+    color:rgba(232, 159, 113, 1);
+    padding: 0.8em 4em;
+    border: 1px solid rgba(232, 159, 113, 1) !important;
+}
+
+.our-product .col:hover .img-product{
+    filter: brightness(0.5) hue-rotate(90deg);
+}
+.form-contact{
+    width: 70%;
+    position: absolute;
+    bottom: 33%;
+}
+.shared,.like {
+    text-align: center;
+    display: none;
+    font-weight: 600;
+    color: #ffff;
+}
+.our-product .col:hover .product-body{
+    filter: brightness(0.5) hue-rotate(90deg);
+}
+
+.our-product .col:hover .add-to-cart-button{
+    display: block;
+}
+.our-product .col:hover .shared{
+    display: block;
+}
+.our-product .col:hover .like{
+    display: block;
+}

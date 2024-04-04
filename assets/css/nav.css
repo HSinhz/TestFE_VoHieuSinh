@@ -1,0 +1,49 @@
+.margin-24 {
+    margin: 0 24px;
+}
+.header{
+    background-color: #F9F1E7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+    
+.navbar-nav .nav-item .nav-link{
+    margin: 0 24px;
+}
+.input-search {
+    align-content: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn {
+    background-color: #ffff;
+    border: none; /* Loại bỏ viền */
+    cursor: pointer;
+    padding: 4px 8px; /* Loại bỏ khoảng trống giữa biểu tượng và nút */
+}
+
+.form-search {
+    width: 300px;
+    border: none; /* Loại bỏ viền */
+    outline: none; /* Loại bỏ viền khi được focus */
+    padding-left: 5px; /* Để tạo khoảng cách giữa input và nút */
+}
+.img-user {
+    border-radius: 200px;
+    width: 30px;
+}
+
+.group-right i{
+    margin: 0 12px;
+    color: black;
+}
+
+

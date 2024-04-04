@@ -1,0 +1,55 @@
+.sibar {
+    position: relative;
+    margin-top: 56px;
+    background: #F9F1E7;
+    height: 100%; 
+    padding: 24px 0 48px 0;
+}
+.form-content{
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.72);
+    height: 70%;
+    bottom: 18%;
+    left: 20%;
+}
+
+.content{
+    margin: 48px 24px;
+}
+
+.content .header-content{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.content .body-content{
+    margin: 14px;
+    font-size: 20px;
+}
+
+.btn-shop {
+    display: block;
+    width: 100%;
+    margin-top: 24px ;
+    background: rgba(232, 159, 113, 1) ;
+    padding: 24px 100px ;
+    text-align: center ;
+    color: aliceblue ;
+    text-decoration: none ;
+    border: none ;
+    border-radius: none ;
+}
+
+.detail-slider{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.72);
+    width: 30px;
+    height: 20%;
+    bottom: 20% ;
+    right: 24%;
+}
+
+
+

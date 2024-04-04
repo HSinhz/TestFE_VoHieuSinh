@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>X-TECH 789</title>
+        <link rel="stylesheet" href="./assets/css/global.css">
+
+        <link rel="stylesheet" href="./assets/css/nav.css">
+        <link rel="stylesheet" href="./assets/css/sibar.css">
+        <link rel="stylesheet" href="./assets/css/about.css">
+        <link rel="stylesheet" href="./assets/css/our-product.css">
+        <link rel="stylesheet" href="./assets/css/other.css">
+        <link rel="stylesheet" href="./assets/css/tip-trick.css">
+        <link rel="stylesheet" href="./assets/css/funior.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/icons/themify-icons-font/themify-icons/themify-icons.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e800e6ce0c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg  margin-24">
+                <div class="container-fluid d-flex">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-wrap" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown mr-4 ml-4">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a class="nav-link" aria-disabled="true">Disabled</a>
+                            </li>
+                            <div class="input-search">
+                                <form class="d-flex" role="search">
+                                    <div class="input-group">
+                                        <button class="search-btn" type="submit">
+                                            <i class="ti-search"></i>
+                                        </button>
+                                        <input class="form-search" type="text" placeholder="Search" aria-label="Search">
+                                    </div>
+                                </form>
+                            </div>
+                        </ul>
+                        <div class="group-right">
+                            <a href="#" class="text-decoration-none"><i class="ti-heart"></i> </a> 
+                            <a href="#" class="text-decoration-none"><i class="ti-shopping-cart"></i></a>
+                            <a href="/profile" class="text-decoration-none"><i><img class="img-fluid img-user" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGCuJeJFTGQtTds-RSj17RfHN05pqVQyAlpz8dvEc_g&s" /></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="body w-100 justify-content-center">
+            <div class="sibar">
+                <div class="container">
+                    <img class="img-fluid img-slider" src="./assets/images/img01.jpg"/>
+                    <div class="row">
+                        <div class="col-sm-3 col-lg-3 form-content">
+                            <div class="content">
+                                <div>
+                                    <h1 class="header-content fw-bold">
+                                        High-Quality
+                                        Furniture 
+                                        Just For You
+                                    </h1>
+                                </div>
+                                <div class="body-content">
+                                    <p style="opacity: 0.6">
+                                        Our furniture is made from selected and best quality materials that are suitable for your dream home
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn-shop" type="">
+                                        Shop Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-lg-2 detail-slider">
+                            <div class="p-4">
+                                <h4>Bohauss</h4>
+                                <p class="mb-2">Luxury big sofa 2-seat</p>
+                                <div class="d-flex justify-content-between">
+                                    <h5>Rp 17.000.000</h5>
+                                    <i class="ti-arrow-right fw-bold p-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button class="prev" onclick="prevSlide()">Previous</button>
+                        <button class="next" onclick="nextSlide()">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container about-us">
+                <div class="row d-flex justify-content-around">
+                    <div class="col col-3 col-sm-3 col-md-3 col-lg-3 ">
+                        <div class="row">
+                            <div class="col col-4 col-sm-4 col-md-4 col-lg-4 s-col-full text-center">
+                                <h2>
+                                <i class="ti-cup "></i>
+
+                                </h2>
+                            </div>
+                            <div class="col col-8 col-sm-8 col-md-8 col-lg-8 text-center">
+                                <div class="fw-bold">
+                                    High Quality
+                                </div>
+                                <div>
+                                    crafted from top materials
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-3 col-sm-3 col-md-3 col-lg-3 ">
+                        <div class="row">
+                            <div class="col col-4 col-sm-4 col-md-4 col-lg-4 s-col-full text-center">
+                                <h2>
+                                    <i class="fa-regular fa-circle-check "></i>
+                                </h2> 
+                            </div>
+                            <div class="col col-8 col-sm-8 col-md-8 col-lg-8 text-center">
+                                <div class="fw-bold">Warrany Protection</div>
+                                <div>
+                                    Over 2 years
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-3 col-sm-3 col-md-3 col-lg-3 ">
+                        <div class="row">
+                            <div class="col col-4 col-sm-4 col-md-4 col-lg-4 s-col-full text-center">
+                                <h2>
+                                    <i class="fa-solid fa-truck-fast "></i>
+                                </h2>
+                            </div>
+                            <div class="col col-8 col-sm-8 col-md-8 col-lg-8 text-center">
+                                <div class="fw-bold">
+                                    Free Shipping
+                                </div>
+                                <div>
+                                    Order over 150 $
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-3 col-sm-3 col-md-3 col-lg-3 ">
+                        <div class="row">
+                            <div class="col col-4 col-sm-4 col-md-4 col-lg-4 s-col-full text-center">
+                                <h2>
+                                    <i class="fa-solid fa-headset "></i>
+                                </h2>
+                            </div>
+                            <div class="col col-8 col-sm-8 col-md-8 col-lg-8 text-center">
+                                <div class="fw-bold">
+                                    24/7 Support
+                                </div>
+                                <div>
+                                    Dedicated support                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-product container">
+                <div class="header-our-product">
+                    <h1 class="text-center">
+                        Our Products
+                    </h1>
+                </div>
+                <div class="body-our-product">
+                    <div class="row ">
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col-md-3 col-sm-3 col-four s-col-full col-seccond product">
+                            <img src="./assets/images/product01.png" class="img-product"/>
+                            <div class="product-body">
+                                <div class="branch-product fw-600 mb-2">
+                                     <h5>Syltherine</h5>
+                                </div>
+                                <div class="name-product mb-2" style="opacity: 0.7;">
+                                    Stylish cafe chair
+                                </div>
+                                <div class="price-product fw-600 mb-2">
+                                    <h5>2.500.000 <span class="" style="opacity: 0.5;"><del>Rp 3.500.000</del></span></h5> 
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="add-to-cart-button">Add to Cart</button>
+                                <div class="row form-contact">
+                                    <div class="col-6 col-md-6">
+                                        <p class="shared">
+                                            <i class="fa-solid fa-diagram-project"></i> Share
+                                        </p>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <p class="like">
+                                            <i class="fa-regular fa-heart"></i> Like
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button class="btn-show-more">Show more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col col-6 col-md-6 col-seccond s-col-full col-right">
+                            <div class="content ">
+                                <div class="">
+                                    <h1>
+                                        50+ Beautiful rooms 
+                                        inspiration 
+                                    </h1>
+                                    <p>
+                                        Our designer already made a lot of beautiful prototipe of rooms that inspire you
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn-explore">Explore More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-6 col-sm-6 col-md-6 col-seccond s-col-full col-left-other">
+                            <img class="img-other" src="./assets/images/other.png"/>
+                            <div class="group-ads">
+                                <div class="row">
+                                    <div class="col col-6 col-md-6 room-hot">
+                                        <div style="color: rgba(97, 97, 97, 1);">
+                                            01 <span class="line"></span> Bedroom
+                                        </div>
+                                        <div class="mt-3">
+                                            <h2 class="">Inner Peace </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col col-6 col-md-6 btn-next-wrap">
+                                        <div class="btn-next-none">
+                                        </div>
+                                        <div class="btn-next-none">
+                                        </div>
+                                        <div class="btn-next">
+                                            <i class="fa-solid fa-arrow-right " ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tip-trick mb-5">
+                <div class="container">
+                    <h1 class="mt-5  text-center mb-4">Tips & Tricks</h1>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col col-3 col-md-4 col-sm-4 s-col-full">
+                            <a href="#" class="text-decoration-none">
+                                <img src="./assets/images/tip01.png" class="img-tip-trick"/>
+                                <div class="body-tip-tricks">
+                                        <h5>How to create a living room to love</h5>
+                                    <div class="day-post">
+                                        20 jan 2020
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-3 col-md-4 col-sm-4 s-col-full">
+                            <a href="#" class="text-decoration-none">
+                                <img src="./assets/images/tip01.png" class="img-tip-trick"/>
+                                <div class="body-tip-tricks">
+                                        <h5>How to create a living room to love</h5>
+                                    <div class="day-post">
+                                        20 jan 2020
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-3 col-md-4 col-sm-4 s-col-full">
+                            <a href="#" class="text-decoration-none">
+                                <img src="./assets/images/tip01.png" class="img-tip-trick"/>
+                                <div class="body-tip-tricks">
+                                        <h5>How to create a living room to love</h5>
+                                    <div class="day-post">
+                                        20 jan 2020
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="funior-furniture mt-5">
+                <div class="text-center">
+                    <h5>Share your setup with</h5>
+                    <h1>#FuniroFurniture</h1>
+                </div>
+                <div class="group-poster">
+                    <div class="row d-flex">
+                        <div class="col col-md-6 col-sm-6 col-left">
+                            <div class="row d-flex" style="flex-direction: row; align-items: flex-end;">
+                                <div class="col col-sm-4 col-md-4">
+                                    <img src="./assets/images/poster1.png" class="img-poster" />
+                                </div>
+                                <div class="col col-sm-8 col-md-8">
+                                    <img src="./assets/images/poster2.png" class="img-poster" />
+                                </div>
+                            </div>
+                            <div class="row mt-4 d-flex">
+                                <div class="col col-sm-6 col-md-6">
+                                    <img src="./assets/images/poster6.png" class="img-poster" />
+                                </div>
+                                <div class="col col-sm-6 col-md-6">
+                                    <img src="./assets/images/poster7.png" class="img-poster" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-2 col-sm-2 col-middle d-flex align-items-center" style="padding: 0; margin-top:56px">
+                            <div class="poster-middle">
+                                <img src="./assets/images/poster3.png" class="img-fluid img-poster">
+                            </div>
+                        </div>
+                        <div class="col col-md-4 col-sm-4 col-right">
+                            <div class="row d-flex" style="flex-direction: row; align-items: flex-end; height:60%">
+                                <div class="col col-md-8 col-sm-8">
+                                    <img src="./assets/images/poster4.png" class="img-poster">
+                                </div>
+                                <div class="col col-md-4 col-sm-4" >
+                                    <img src="./assets/images/poster5.png" class="img-poster" style="height: 100%;">
+                                </div>
+                            </div>
+                            <div class="row mt-4 d-flex" >
+                                <div class="col col-sm-5 col-md-5" style="padding-right: 0;" >
+                                    <img src="./assets/images/poster9.png" class="img-poster" style="height: 100%;"/>
+                                </div>
+                                <div class="col col-sm-7 col-md-7">
+                                    <img src="./assets/images/poster10.png" class="img-poster"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container" >
+            <div id="line"> </div>
+        </div>
+        <div class="footer">
+            <footer class="py-5">
+                <div class="container d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="mb-4">
+                                <h5 class="fw-bold" >Funiro.</h5>
+                            </div>
+                            <div class="primary-text-color">
+                                <p class="mb-4">
+                                    Worldwide furniture store since 2020. We sell over 1000+ branded products on our website
+                                </p>
+                                <p class="mb-4">
+                                <i class="ti-location-pin"></i> Sawojajar Malang, Indonesia
+                                </p>
+                                <p class="mb-4">
+                                    <i class="fa-solid fa-phone"></i> +6289 456 3455
+                                </p>
+                                <p class="mb-4">
+                                    <i class="fa-solid fa-globe"></i> www.funiro.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 mb-3">
+                            <div class="mb-4">
+                                <h5 class="fw-bold" >Menu</h5>
+                            </div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Rooms</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Inspirations</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Terms & Policy</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-6 col-md-2 mb-3">
+                            <div class="mb-4">
+                                <h5 class="fw-bold" >Account</h5>
+                            </div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">My Account</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Checkout</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">My Cart</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">My catalog</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-6 col-md-2 mb-3">
+                            <div class="mb-4">
+                                <h5 class="fw-bold" >Stay Connected</h5>
+                            </div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <form>
+                                <div class="mb-4">
+                                    <h5 class="fw-bold" >Stay Updated</h5>
+                                </div>
+                                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class=" form-input" placeholder="Enter your email">
+                                <button class="btn-send-mail" type="button"><i class="fa-solid fa-paper-plane"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <script src="./assets/js/slide.js"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+.footer .form-input {
+    border: none !important;
+    outline: none !important;
+    background: rgba(244, 245, 247, 1);
+    padding: 8px;
+
+}
+
+.footer .btn-send-mail {
+    border: none;
+    padding: 0 12px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(232, 159, 113, 1);
+
+}

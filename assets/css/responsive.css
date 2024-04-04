@@ -1,0 +1,102 @@
+
+
+@media ( min-width : 64em )and ( max-width: 1180px ){
+    .sibar {
+        padding: 24px 0 48px 0;
+    }
+    .form-content{
+        bottom: 20%;
+    }
+    .content .header-content{
+        font-size: 24px;
+    }
+    
+    .content .body-content{
+        font-size: 16px;
+    }
+
+    .btn-shop {
+        margin-top: 2px;
+        background: rgba(232, 159, 113, 1) ;
+        padding: 12px 80px ;
+        text-align: center ;
+        color: aliceblue ;
+        text-decoration: none ;
+        border: none ;
+    }
+    .col-seccond{
+        width: 47.5% !important;
+    }
+    
+}
+
+@media ( max-width : 46.1875em ){
+    .sibar .form-content {
+        width: 55%;
+        bottom: 12%;
+        left: 10%;
+        padding-top: 24px !important;
+
+    }
+    .content {
+        margin: 4px 4px;
+    }
+    .header-content{
+        font-size: 14px !important;
+    }
+    .body-content {
+        font-size: 12px !important;
+    }
+    .btn-shop {
+        font-size: 12px;
+        margin-top: 2px;
+        background: rgba(232, 159, 113, 1);
+        padding: 12px 50px;
+        text-align: center;
+        color: aliceblue !important;
+        text-decoration: none;
+        border: none;
+    }
+    .col-seccond{
+        width: 47.5% !important;
+    }
+    .s-col-full {
+        width: 98% !important;
+    }
+    .other .col-right {
+        padding-top: 24px !important;
+    }
+    .btn-explore {
+        width: 70%;
+        margin-bottom: 36px;
+    }
+}
+
+@media( min-width: 46.25em ) and ( max-width: 63.9375em ){
+    .sibar .form-content {
+        padding-top: 24px !important;
+    }
+    .content {
+        margin: 12px 9px;
+    }
+    .header-content{
+        font-size: 24px !important;
+    }
+    .body-content{
+        font-size: 10px !important;
+    }
+    .btn-shop {
+        font-size: 12px;
+        margin-top: 12px;
+        background: rgba(232, 159, 113, 1);
+        padding: 12px 50px;
+        text-align: center;
+        color: aliceblue ;
+        text-decoration: none;
+        border: none;
+    }
+    .col-seccond{
+        width: 46.5% !important;
+    }
+    
+}

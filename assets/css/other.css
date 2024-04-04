@@ -1,0 +1,88 @@
+.other{
+    margin-top: 64px;
+    background: rgba(252, 248, 243, 1);
+    padding: 64px 0px;
+}
+
+.img-other {
+    display: block;
+    width: 100%;
+}
+
+.other .col-right{
+    padding-top: 220px;
+    font-family: 'Gilroy', sans-serif;
+    color: rgba(58, 58, 58, 1);
+
+}
+
+.other .col-right h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.other .col-right p {
+    width: 60%;
+}
+
+.btn-explore{
+    display: block;
+    width: 40%;
+    background: rgba(232, 159, 113, 1) ;
+    padding: 20px ;
+    text-align: center ;
+    color: aliceblue !important;
+    text-decoration: none ;
+    border: none ;
+    border-radius: none ;
+}
+
+.col-left-other {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.room-hot{
+    background: rgba(255, 255, 255, 0.72);
+    font-family: 'Gilroy', sans-serif;
+    padding: 32px !important;
+    width: 100%;
+}
+.other .line {
+    width: 40px; /* Độ dài của dấu gạch */
+    border-bottom: 1px solid black; /* Màu sắc và kiểu của dấu gạch */
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.group-ads {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 7%;
+    left: 10%;
+}
+
+.btn-next-wrap {
+    padding: 0 !important;
+    width: 10%;
+}
+
+.other .col-left-other h2{
+    color: rgba(58, 58, 58, 1);
+    font-weight: 500;
+}
+.btn-next{
+    color: #ffff;
+    text-align: center;
+    display: block;
+    width: 60px;
+    font-size: 20px;
+    padding: 12px;
+    background: rgba(232, 159, 113, 1);
+    
+}
+
+.btn-next-none{
+    margin: 100px;
+}

@@ -1,0 +1,34 @@
+.funior-furniture {
+    width: 99%;
+    display: block;
+}
+
+.group-poster .img-poster {
+    width: 100%;
+    display: block;
+}
+.group-poster .col-left {
+    width: 48%;
+    padding: 0 12px !important;
+
+}
+
+.group-poster .col-middle {
+    width: 20%;
+    padding: 0 !important;
+}
+
+.group-poster .col-right {
+    padding: 0 0 0 12px!important;
+    width: 32.000222% !important;
+}
+
+.group-poster {
+}
+
+#line {
+    width: 100%;
+    height: 1px;
+    margin: 84px 0;
+    border: 1px solid rgba(216, 216, 216, 1)
+}

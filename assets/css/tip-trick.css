@@ -1,0 +1,24 @@
+.tip-trick h1{
+    font-family: 'Gilroy', sans-serif;
+
+}
+.tip-trick .img-tip-trick{
+    display: block;
+    width: 100%;
+}
+
+.tip-trick .body-tip-tricks {
+    padding: 24px;
+}
+
+.body-tip-tricks h5 {
+    color: black;
+}
+
+.body-tip-tricks .day-post {
+    color: rgba(137, 137, 137, 1);
+}
+.tip-trick .col:hover .body-tip-tricks{
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.1);
+}
+
