@@ -22,3 +22,39 @@
     box-shadow: 0 0 10px rgba(0 , 0, 0, 0.1);
 }
 
+.pagination .page-item {
+    list-style: none; /* Ẩn dấu hiệu của list */
+    display: inline-block; /* Hiển thị các item trên cùng 1 dòng */
+    margin: 0 16px; /* Khoảng cách giữa các item */
+
+}
+
+.pagination .page-item.active .page-link {
+    border: none; /* Loại bỏ viền */
+}
+
+
+.pagination .page-item:hover .page-link{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgba(232, 159, 113, 1) !important;
+
+
+}
+.pagination .page-item:hover .fa-circle{
+    color: rgba(232, 159, 113, 1) !important;
+}
+.pagination .page-item .page-link {
+    border: none !important; /* Loại bỏ viền */
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+.tip-trick .page-link {
+    border-radius: 50px !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+
+}
+
+.tip-trick .fa-circle {
+    color: rgb(152, 151, 151) !important;
+}
